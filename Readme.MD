@@ -9,6 +9,8 @@ Este proyecto de **FastAPI** implementa un doble sistema de Middleware:
 * Python 3.10+
 * FastAPI, Uvicorn, python-multipart
 
+# Inicia el servidor en el puerto 8001
+'uvicorn main:app --reload --port 8001'
 ## 💻 Instrucciones de Instalación y Ejecución
 
 Sigue estos pasos directos para ejecutar la API localmente:
@@ -17,3 +19,4 @@ Sigue estos pasos directos para ejecutar la API localmente:
 Asegúrate de tener un entorno virtual activo y luego instala los paquetes necesarios:
 ```bash
 pip install fastapi "uvicorn[standard]"
+
